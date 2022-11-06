@@ -38,6 +38,7 @@ class _ProductCategoryWidgetState extends ConsumerState<ProductCategoryWidget> {
         scrollDirection: Axis.horizontal,
         shrinkWrap: true,
         itemBuilder: (context, index) {
+          print('adding new comment in the file');
           return Padding(
             padding: const EdgeInsets.only(top: 10, right: 16),
             //height: ,
